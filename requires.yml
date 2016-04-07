@@ -1,0 +1,12 @@
+# A list of javascript files required for the project, in dependency order
+javascripts:
+  files:
+    - lib/jquery-2.1.1.min.js
+    - lib/underscore.min.js
+    - lib/bootstrap.min.js
+    - js/models/source.js
+    - js/models/word.js
+    - js/models/haiku.js
+    - js/controllers/applicationController.js
+    - js/adapters/wordAdapter.js
+    - js/adapters/sourceAdapter.js

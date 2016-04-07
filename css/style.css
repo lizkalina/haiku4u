@@ -1,0 +1,100 @@
+html {
+  min-height: 100%;
+  padding-bottom: 50px;
+  position: relative;
+}
+
+.jumbotron {
+  background: url("../images/dada-man.jpg");
+  background-position: top 40% right;
+  background-size: cover;
+  border-bottom: 3px solid #494949;
+  width: 100%;
+}
+
+.jumbo-content {
+  border-radius: 25px;
+  padding: 0px 30px 30px 30px;
+}
+
+.heading {
+  font-family: 'Special Elite';
+  font-size: 55px !important;
+}
+
+.subheading, .btn {
+  font-family: 'Open Sans';
+}
+
+input {
+  border-radius: 0px !important;
+}
+
+.form-control {
+  display: block !important;
+  width: 58% !important;
+}
+
+button {
+  background: rgb(121,87,93);
+  border-radius: 1px !important;
+  color: white !important;
+}
+
+#haiku-space {
+  background-image: url('../images/quotation-marks-for-haiku-lg.jpg');
+  background-position: center top;
+  background-size: cover;
+  font-family: 'Open Sans';
+  font-size: 2em;
+  font-weight: 300;
+  min-height: 250px;
+  padding-top: 5%;
+  text-align: center;
+  position: relative;
+}
+
+#footer {
+  background: linear-gradient(white, rgba(255, 249, 249, 0.5), rgba(192, 180, 197, 0.3));
+  bottom: 0;
+  font-family: 'Open Sans';
+  font-weight: 300;
+  height: 40px;
+  margin-top: 10px;
+  padding: 10px 15px;
+  position: absolute;
+  width: 100%;
+}
+
+#footer > .pull-right {
+  font-size: 14px;
+}
+
+#about {
+  background-color: white;
+  bottom: 40px;
+  font-family: 'Special Elite';
+  height: 0px;
+  overflow:  hidden;
+  position: absolute;
+  transition: height .4s ease;
+  width: 100%;
+}
+
+#about span {
+  font-size: 17px;
+}
+
+#api-credit {
+  font-family: 'Open Sans';
+  font-weight: 300;
+}
+
+
+@media (max-width: @screen-xs) {
+
+#haiku-space {
+  font-size: 1.5em !important;
+}
+
+}
